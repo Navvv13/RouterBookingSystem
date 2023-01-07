@@ -1,0 +1,44 @@
+.FortySeater {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 2%;
+    display: grid;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.driverSeat{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.driverSeatPic{
+    height: 60px;
+    width: 60px;
+}
+
+.emptyBox {
+    height: 60px;
+    width: 60px;
+}
+
+.seat {
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.steeringwheel {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
